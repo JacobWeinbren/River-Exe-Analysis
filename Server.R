@@ -84,7 +84,7 @@ output$map <- renderLeaflet({
         )
 })
 
-# Add heatmap layer if available
+# Add heatmap layer
 observe({
     leafletProxy("map") %>%
         addRasterImage(

@@ -6,6 +6,7 @@
 
 library(sf)
 library(terra)
+library(raster)
 library(RColorBrewer)
 
 # Function to load and transform spatial data to WGS84
